@@ -2,9 +2,7 @@
 
 This file defines how AI agents should initialize and maintain this Obsidian LLM wiki.
 
-The source design document is `LLM-wiki.md`. Always read `LLM-wiki.md` before making major structural decisions.
-
-`README.md` is only a first-use project guide for humans. Do not try to keep it synchronized with the wiki unless the user explicitly asks.
+The human-facing introduction is in `README.md`. The source design document is `LLM-wiki.md`. Always read `LLM-wiki.md` before making major structural decisions.
 
 ## Core Principle
 
@@ -212,5 +210,5 @@ Update it when:
 When updating this file, preserve the distinction between:
 
 - `LLM-wiki.md`: stable source idea.
-- `README.md`: first-use project guide for humans, not a maintained wiki mirror.
+- `README.md`: human-facing onboarding.
 - `AGENTS.md`: AI-facing operating rules.
